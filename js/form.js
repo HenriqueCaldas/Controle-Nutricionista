@@ -8,7 +8,6 @@ botao.addEventListener("click", function(event){
 
     var paciente = obtemDadoDoFormulario(form);
 
-    
     var erros = validaPaciente(paciente);
     if(erros.length > 0) {
         exibeMensagensErros(erros);
