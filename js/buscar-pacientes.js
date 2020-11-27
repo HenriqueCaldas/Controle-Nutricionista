@@ -7,7 +7,6 @@ botaoAdicionar.addEventListener("click", function(){
     
     xhr.send();
 
-
     xhr.addEventListener("load", function(){
         var erroAjax = document.querySelector("#erro-ajax");
         if(xhr.status == 200){ 
